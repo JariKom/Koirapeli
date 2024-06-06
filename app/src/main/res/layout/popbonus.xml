@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tämä on bonus ikkuna"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/MainokseenID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mainos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <Button
+        android:id="@+id/ajastimelleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aloita ajastin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Katso mainos saaadaksesi 5 000"
+        app:layout_constraintEnd_toEndOf="@+id/MainokseenID"
+        app:layout_constraintStart_toStartOf="@+id/MainokseenID"
+        app:layout_constraintTop_toBottomOf="@+id/MainokseenID" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Pysäytä ajastin tasan 10:00 \nkohdalla saadaksesi 500 000 bonuksen"
+        app:layout_constraintEnd_toEndOf="@+id/ajastimelleID"
+        app:layout_constraintStart_toStartOf="@+id/ajastimelleID"
+        app:layout_constraintTop_toBottomOf="@+id/ajastimelleID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

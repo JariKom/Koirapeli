@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogy clicker</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="_1_pelaaja">Pelaa</string>
+    <string name="_2_pelaajaa">Ohjeet</string>
+    <string name="button">Osta</string>
+    <string name="bonus">Bonus</string>
+    <string name="kehita">kehita</string>
+    <string name="rahaa_on">Rahaa on</string>
+    <string name="aikaa_viela">Aikaa vielä</string>
+    <string name="hinta">Hinta on</string>
+</resources>

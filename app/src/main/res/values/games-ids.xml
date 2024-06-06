@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Google Play game services IDs. Save this file as res/values/games-ids.xml in your project.-->
+<resources>
+    <!--app_id-->
+    <string name="app_id" translatable="false">942766848982</string>
+    <!--package_name-->
+    <string name="package_name" translatable="false">com.Dogy_clicker</string>
+    <!--leaderboard Pistetaulukko-->
+    <string name="leaderboard_pistetaulukko" translatable="false">CgkI1vehirgbEAIQAA</string>
+</resources>
